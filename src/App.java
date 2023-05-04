@@ -8,9 +8,9 @@ public class App {
 
         Scanner teclado = new Scanner (System.in);
         System.out.print("Entre com o primeiro numero:");
+        primeiroNumero = teclado.nextInt();
         System.out.println("");
         System.out.print("Entre com o segundo numero:");
-        primeiroNumero = teclado.nextInt();
         segundoNumero = teclado.nextInt();
         System.out.println("");
         teclado.close();
